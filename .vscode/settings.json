@@ -1,0 +1,78 @@
+{
+  "files.eol": "\n",
+
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "typescript",
+  ],
+
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "octref.vetur",
+  },
+
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "actionButtons": {
+    "loadNpmCommands":false,
+    // "reloadButton":"♻️",
+
+    "commands": [
+      {
+        "name": "⚡ dev",
+        // "color": "green",
+        "command": "npm run dev",
+      },
+
+      // {
+      //   "name": "🛑 Commits en casa",
+      //   "color": "orange",
+      //   // "command": "npm run dev",
+      // },
+
+      // {
+      //   "name": "🤌 Añadir versión",
+      //   "color": "yellow",
+      //   // "command": "npm run dev",
+      // },
+    ]
+  },
+
+  "commentAnchors.tags.anchors": {
+    "TODO": {
+      "iconColor": "blue",
+      "highlightColor": "#3ea8ff",
+      "backgroundColor": "#3ea8ff33",
+      "scope": "workspace"
+    },
+
+    "NOTE": {
+      "iconColor": "orange",
+      "highlightColor": "#FFB300",
+      "scope": "workspace"
+    },
+
+    "WIP": {
+      "iconColor": "blurple",
+      "highlightColor": "#896afc",
+      "scope": "workspace",
+    },
+  },
+}
